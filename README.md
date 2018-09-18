@@ -1,5 +1,6 @@
 # TestFirstRepository
 Test First Repository
+
 @Test(priority = 0, description = "Get Twitter Time Line data...")
 	public void getTwitterTimeLine() throws TwitterException{
 		logger = extentReports.createTest("Get Twitter Time Line data.");
